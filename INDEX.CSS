@@ -176,6 +176,7 @@ color: grey;
     background-color: rgba(64,63,81,255);
     z-index: 1;
     margin-left:7%;
+    box-shadow: 3px 4px 4px rgba(64,63,81,255);
 }
 .child{
     height:8vh;
@@ -213,9 +214,10 @@ color: grey;
 
 }
 .subcont{
-    height:30vh;
+    height:25vh;
     margin-top: 3%;
     width: 98%;
+    border-bottom: 1px solid white;
 }
 .design{
     height:20vh;
@@ -228,12 +230,12 @@ color: grey;
 
 
 #what{
-    font-size: 55px;
+    font-size: 60px;
     color: white;
 
 }
 #para2{
-    font-size: 20px;
+    font-size: 24px;
     color:aliceblue;
     font-weight: lighter;
 
@@ -243,16 +245,13 @@ color: grey;
     height: 15vh;
     width: 30%;
    
-    margin-left: 10%;
+    margin-left:4%;
 }
-.plus1{
+.mainplus{
   
     height: 15vh;
-    width: 30%;
-    
-    margin-left: 10%;
-    margin-top: 10px;
-    float: left;
+    width: 100%; 
+    margin-left: -4%;
 }
 .skills{
     height: 25vh;
@@ -262,25 +261,25 @@ color: grey;
 
 }
 #box3{
-    height: 24vh;;
+    height: 17vh;;
 }
 
 .contain{
-    height: 55vh;
+    height: 45vh;
     width: 25%;
     float: left;
     margin-left: 6%;
     margin-top: -16%;
-    background-color:rgba(45,45,57,255);
+    background-color:rgba(80, 80, 97);
     
 }
 .iconss{
     margin-left: 2%;
     margin-top: 2%;
-    height: 12vh;
-    width: 12vh;
+    height: 10vh;
+    width: 10vh;
     border-radius: 360px;
-  
+    margin-left: 8%;
   
 }
 #icon1{
@@ -304,8 +303,9 @@ color: grey;
     
 }
 .headinh{
-    font-size: 30px;
+    font-size: 20px;
     color: white;
+    margin-left: 8%;
 
 }
 .subheading{
@@ -314,4 +314,5 @@ color: grey;
     font-weight: lighter;
     font-family: 'Courier New', Courier, monospace;
     margin-top: -12%;
+    margin-left: 8%;
 }
